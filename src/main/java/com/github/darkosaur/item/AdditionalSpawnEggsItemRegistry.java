@@ -22,4 +22,7 @@ public class AdditionalSpawnEggsItemRegistry {
 
     public static final RegistryObject<SpawnEggItem> ENDER_DRAGON_SPAWN_EGG = ITEMS.register("ender_dragon_spawn_egg",
             () -> new SpawnEggItem(EntityType.ENDER_DRAGON, 0x151102, 0x07179F, new Item.Properties().group(ItemGroup.MATERIALS)));
+
+    public static final RegistryObject<SpawnEggItem> WITHER_SPAWN_EGG = ITEMS.register("wither_spawn_egg",
+            () -> new SpawnEggItem(EntityType.WITHER, 0x110D0D, 0x383333, new Item.Properties().group(ItemGroup.MATERIALS)));
 }
