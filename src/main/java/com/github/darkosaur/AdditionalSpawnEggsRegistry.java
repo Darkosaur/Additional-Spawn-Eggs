@@ -1,6 +1,5 @@
-package com.github.darkosaur.item;
+package com.github.darkosaur;
 
-import com.github.darkosaur.AdditionalSpawnEggs;
 import net.minecraft.entity.EntityType;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -9,7 +8,7 @@ import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
-public class AdditionalSpawnEggsItemRegistry {
+public class AdditionalSpawnEggsRegistry {
 
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, AdditionalSpawnEggs.MOD_ID);
 

@@ -1,6 +1,5 @@
 package com.github.darkosaur;
 
-import com.github.darkosaur.item.AdditionalSpawnEggsItemRegistry;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -20,7 +19,7 @@ public class AdditionalSpawnEggs {
 
         modBus.addListener(this::setup);
 
-        AdditionalSpawnEggsItemRegistry.ITEMS.register(modBus);
+        AdditionalSpawnEggsRegistry.ITEMS.register(modBus);
 
         MinecraftForge.EVENT_BUS.register(this);
     }
