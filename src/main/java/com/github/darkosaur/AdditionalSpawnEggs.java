@@ -13,7 +13,7 @@ import org.apache.logging.log4j.Logger;
 public class AdditionalSpawnEggs {
 
     private static final Logger LOGGER = LogManager.getLogger();
-    public static final String MOD_ID = "additional_spawn_eggs";
+    public static final String MOD_ID = "ase";
 
     public AdditionalSpawnEggs() {
         final IEventBus modBus = FMLJavaModLoadingContext.get().getModEventBus();
