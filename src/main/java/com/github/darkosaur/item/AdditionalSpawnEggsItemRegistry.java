@@ -25,4 +25,7 @@ public class AdditionalSpawnEggsItemRegistry {
 
     public static final RegistryObject<SpawnEggItem> WITHER_SPAWN_EGG = ITEMS.register("wither_spawn_egg",
             () -> new SpawnEggItem(EntityType.WITHER, 0x110D0D, 0x383333, new Item.Properties().group(ItemGroup.MATERIALS)));
+
+    public static final RegistryObject<SpawnEggItem> ILLUSIONER = ITEMS.register("illusioner_spawn_egg",
+            () -> new SpawnEggItem(EntityType.ILLUSIONER, 0x46BAF1, 0x7A6B4E, new Item.Properties().group(ItemGroup.MATERIALS)));
 }
