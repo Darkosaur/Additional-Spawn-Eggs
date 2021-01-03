@@ -12,4 +12,4 @@ If you would like to help contribute to the mod and make translations for it in 
 
 2. Add a JSON file in the src/main/resources/assets/ase/lang directory with the language you want to make.
 
-3. Once your done, make a pull request [here](https://github.com/Darkosaur/Additional-Spawn-Eggs/pulls) and name your translation. And done.
+3. Once your done, make a pull request [here](https://github.com/Darkosaur/Additional-Spawn-Eggs/pulls) and name your translation, go this [link](https://minecraft.gamepedia.com/Language) for more information which will help you out on your translation. And done.
